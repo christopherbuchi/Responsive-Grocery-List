@@ -1,0 +1,69 @@
+*{
+   
+    padding: 0;
+}
+body{
+    background-color:darkorange;
+ 
+}
+.groceries h1{
+    text-align: center;
+    font-size: 2.5rem;
+ 
+  
+   border-bottom:1px solid black;
+
+
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    height: 100%;
+    display: flexbox;
+  
+ 
+}
+#pencil{
+    margin-top: 20px;
+    color: darkorange;
+    font-size: 2rem;
+    cursor: pointer;
+}
+#pencil:hover{
+    transform: scale(0.9);
+    transition: 0.1s;
+}
+.groceries{
+    width: auto;
+    min-height: 97vh;
+    margin-left: 50px;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 24px 0 rgba(0, 0, 0, 0.5);
+    margin-top: 11px;
+    border: 1px solid black;
+}
+.groceries input{
+   outline: 0;
+   border: 0;
+   border-bottom: 2px solid black;
+   width: 50%;
+   font-size: 1rem;
+   cursor: pointer;
+   
+}
+.groceries input:hover{
+    transform: scale(0.9);
+    transition: 0.1s;
+  
+}
+
+#allItems h2{
+    
+    margin-top: 15px;
+    font-size: 2rem;
+}
+h2{
+    margin:auto;
+    cursor: pointer;
+}
